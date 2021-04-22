@@ -1,11 +1,6 @@
-import ExpenseItem from "./components/ExpenseItem";
-import Expenses from "./components/Expenses";
+import ExpenseItem from "./ExpenseItem";
 
-function App() {
-  // const para = document.createElement("p");
-  // para.textContent = "This is also visible";
-  // document.getElementById("root").append(para);
-
+function Expenses(props) {
   const expenses = [
     {
       id: "e1",
@@ -29,10 +24,7 @@ function App() {
 
   return (
     <div>
-      <h2>Let's get started!</h2>
-      {/* <Expenses></Expenses> */}
-      <Expenses />
-      {/* <ExpenseItem
+      <ExpenseItem
         title={expenses[0].title}
         amount={expenses[0].amount}
         date={expenses[0].date}
@@ -46,9 +38,9 @@ function App() {
         title={expenses[2].title}
         amount={expenses[2].amount}
         date={expenses[2].date}
-      ></ExpenseItem> */}
+      ></ExpenseItem>
     </div>
   );
 }
 
-export default App;
+export default Expenses;
