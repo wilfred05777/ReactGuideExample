@@ -1,6 +1,6 @@
 // import ExpenseItem from "./components/ExpenseItem";
 import React from "react";
-import Expenses from "./components/Expenses";
+import Expenses from "./components/Expenses/Expenses";
 
 function App() {
   // const para = document.createElement("p");
@@ -24,6 +24,12 @@ function App() {
       id: "e3",
       title: "Car Insurance",
       amount: "323.12",
+      date: new Date(2002, 7, 14),
+    },
+    {
+      id: "e4",
+      title: "Honda Civic RS150",
+      amount: "3000",
       date: new Date(2002, 7, 14),
     },
   ];
