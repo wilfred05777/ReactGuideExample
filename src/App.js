@@ -2,7 +2,7 @@
 import React from "react";
 import Expenses from "./components/Expenses/Expenses";
 
-function App() {
+const App = () => {
   // const para = document.createElement("p");
   // para.textContent = "This is also visible";
   // document.getElementById("root").append(para);
@@ -48,6 +48,6 @@ function App() {
   //     <Expenses items={expenses} />
   //   </div>
   // );
-}
+};
 
 export default App;
